@@ -24,5 +24,22 @@ namespace DespliegueAutomaticoTest
             //Assert
             Assert.AreEqual(resultadoEsperado, result);
         }
+
+        [TestMethod]
+        public void Testresta()
+        {
+            //Arrange
+            var a = 17;
+            var b = 5;
+            int resultadoEsperado = 12;
+
+            ClaseParaPruebas calculator = new ClaseParaPruebas();
+
+            //Act
+            var result = calculator.resta(a, b);
+
+            //Assert
+            Assert.AreEqual(resultadoEsperado, result);
+        }
     }
 }
