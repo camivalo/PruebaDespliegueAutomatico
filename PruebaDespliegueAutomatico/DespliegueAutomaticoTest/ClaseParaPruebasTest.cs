@@ -41,5 +41,22 @@ namespace DespliegueAutomaticoTest
             //Assert
             Assert.AreEqual(resultadoEsperado, result);
         }
+
+        [TestMethod]
+        public void TestMultiplicar()
+        {
+            //Arrange
+            var a = 4;
+            var b = 5;
+            int resultadoEsperado = 20;
+
+            ClaseParaPruebas calculator = new ClaseParaPruebas();
+
+            //Act
+            var result = calculator.multiplicar(a, b);
+
+            //Assert
+            Assert.AreEqual(resultadoEsperado, result);
+        }
     }
 }
