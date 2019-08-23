@@ -14,7 +14,7 @@ namespace DespliegueAutomaticoTest
             //Arrange
             var a = 2;
             var b = 3;
-            int resultadoEsperado = 6;
+            int resultadoEsperado = 7;
 
             ClaseParaPruebas calculator = new ClaseParaPruebas();
 
